@@ -4,5 +4,8 @@ Rails.application.routes.draw do
   namespace :api do
   	get '/pages' => 'pages#index'
     get '/books' => 'books#index'
+    get '/whammy' => 'whammy#index'
+    get '/beyonces' => 'beyonces#index'
+  	get '/examples' => 'examples#index'
  	end
 end
