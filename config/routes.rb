@@ -9,6 +9,6 @@ Rails.application.routes.draw do
     get '/whammy' => 'whammy#index'
     get '/beyonces' => 'beyonces#index'
   	get '/examples' => 'examples#index'
-
+    get "/teams" => "teams#index"
  	end
 end
