@@ -1,0 +1,6 @@
+class Api::MirageController < ApplicationController
+
+  def index 
+    render "index.html.erb"
+  end 
+end
