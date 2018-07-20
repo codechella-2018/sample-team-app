@@ -6,5 +6,7 @@ Rails.application.routes.draw do
 
     get'/houses_of_westeros' => 'houses_of_westeros#index'
     
+  	get '/examples' => 'examples#index'
+
  	end
 end
